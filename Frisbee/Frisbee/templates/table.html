@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block title %} {{ nazov }} {% endblock %}
+{% block content %}
+
+{{ obsah }}
+{{ button }}
+{% load django_tables2 %}
+{% if table.data.0 != None %}
+{% render_table table %} 
+{% else %}
+Nie sú žiadne údaje.
+{% endif %}      
+{% endblock %}
