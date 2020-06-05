@@ -12,7 +12,7 @@ cryptography==1.2.3
 debtags==2.0
 defer==1.0.6
 dirspec==13.10
-Django==1.9.2
+Django==1.11.29
 django-grappelli==2.9.1
 django-nested-admin==2.1.12
 django-suit==0.2.15
